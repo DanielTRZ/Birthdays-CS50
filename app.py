@@ -46,3 +46,4 @@ def index():
 
         # przekaż dane do szablonu / send data to template
         return render_template("index.html", birthdays=birthdays)
+
